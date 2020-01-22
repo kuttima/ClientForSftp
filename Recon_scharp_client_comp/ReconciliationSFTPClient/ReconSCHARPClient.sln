@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReconSCHARPClient", "ReconciliationSFTPClient\ReconSCHARPClient.csproj", "{D0AE1262-31A1-4E7A-95FB-65AA6B9DBFA0}"
+	GlobalSection(JazzSourceControlProviderSolutionProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupReconSCHARPClient", "SetupReconSCHARPClient\SetupReconSCHARPClient.vdproj", "{9EB47313-67F8-40CA-BDA6-9FF0EF87E377}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0AE1262-31A1-4E7A-95FB-65AA6B9DBFA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0AE1262-31A1-4E7A-95FB-65AA6B9DBFA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0AE1262-31A1-4E7A-95FB-65AA6B9DBFA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0AE1262-31A1-4E7A-95FB-65AA6B9DBFA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EB47313-67F8-40CA-BDA6-9FF0EF87E377}.Debug|Any CPU.ActiveCfg = Debug
+		{9EB47313-67F8-40CA-BDA6-9FF0EF87E377}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(JazzSourceControlProviderSolutionProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+EndGlobal

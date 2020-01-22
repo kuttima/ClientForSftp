@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+    vc:minVersion="1.1" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning">
+
+    <xs:element name="EAEs">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" name="EAE">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="EAENumber" type="xs:string" maxOccurs="1"
+                                minOccurs="0"/>
+                            <xs:element name="ProtocolNumber" type="xs:string"/>
+                            <xs:element name="ParticipantIdentifier" type="xs:string"/>
+                            <xs:element name="PrimaryAE" type="xs:string" minOccurs="0"/>
+                            <xs:element name="MedDRAcodePT" type="xs:string" minOccurs="0"/>
+                            <xs:element name="OnsetDate" type="xs:string" minOccurs="0"/>
+                            <xs:element name="RelationshipToPrimaryAE" type="xs:string"
+                                minOccurs="0"/>
+                            <xs:element name="SeverityGrade" type="xs:string" minOccurs="0"/>
+                            <xs:element name="ICHSeriousnessCriteria" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="ICHSeriousnessCriterionDescription"
+                                            type="xs:string" maxOccurs="unbounded"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="DateOfDeath" type="xs:string" minOccurs="0"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
